@@ -1,0 +1,16 @@
+{
+  "_comment": "Feste Konfiguration fuer den olga-outlier-Skill. Kein Slug noetig -- dieser Skill ist fest auf Olga Weiss' Kanal verdrahtet.",
+  "slug": "olga",
+  "displayName": "Olga Weiss",
+  "language": "de",
+  "niche": "Technik/Tools/Prozesse fuer Online-Unternehmerinnen und Tech-VAs, Schwerpunkt KI im Arbeitsalltag",
+  "searchDefaults": {
+    "days": 90,
+    "multiplier": 1.5,
+    "top": 30,
+    "maxChannels": 10,
+    "topPerChannel": 3,
+    "maxSeeds": 3,
+    "excludeShorts": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_comment": "Öffentliche Referenzkanäle für den olga-outlier-Skill. Nur öffentlich einsehbare Kennzahlen (Kanalname, Handle, Channel-ID, Abo-Zahl, Stand-Datum) — keine Bewertung, keine Kundendaten. Stand der Zahlen: 06.09.2026, via yt-dlp verifiziert.",
+  "own_channel": {
+    "name": "Olga Weiss — Expertin für Tools und Prozesse",
+    "handle": "@OlgaWeissCoaching",
+    "channelId": "UC3BPfoLoiJaVshDvSUH7p9Q"
+  },
+  "niche_channels": [
+    {"name": "Lena | VA Business Academy", "subscribers": 695, "note": "überwiegend englischsprachig"},
+    {"name": "Werde Virtuelle Assistentin", "subscribers": 369},
+    {"name": "Kristin Holm – Expertin für Virtuelle Assistenz", "handle": "@KristinHolm", "subscribers": 338},
+    {"name": "Ulrike Braun (Ahoipixel)", "channelId": "UCndOXddQJWXIEotCVgPc_2A", "subscribers": 111},
+    {"name": "Fidan Güntürkün – VA:Preneur", "channelId": "UCG9W_vkf54IMJqQqv0Z1tRg", "subscribers": 85},
+    {"name": "Wiebke Hiemann", "handle": "@WiebkeHiemann", "channelId": "UCwPFtP4dza2C2yzjA2Zp1iA", "subscribers": 65},
+    {"name": "Julia Theresa Kohl", "channelId": "UCB_ed_erxOX7hOiaHscsC4g", "subscribers": 44},
+    {"name": "Anja Grigoleit", "channelId": "UCSBFJ5WAX04g3U3yrgGlPEg", "subscribers": 44},
+    {"name": "Die VA-Macherin", "channelId": "UCYyZGJTJylgHW2FAE_sSY7g", "subscribers": 19}
+  ],
+  "reach_reference_channels": [
+    {"name": "Projects To Profit (NANCY | KI-Workflows im Büro)", "subscribers": 5580, "topic": "KI/Automatisierung im Büroalltag"},
+    {"name": "Dagmar Mehling · Notioneers", "subscribers": 5020, "topic": "Notion/KI-Produktivität"},
+    {"name": "Mike Mildenberger", "subscribers": 6200, "topic": "Claude Code / KI-Nebenverdienst"}
+  ],
+  "search_defaults": {
+    "language": "de",
+    "region": "DE",
+    "days": 90,
+    "multiplier": 1.5,
+    "exclude_shorts": true,
+    "note": "exclude_shorts=true folgt dem eigenen Kanalbefund: ein Long-Form-Aufruf ist 15,1x so viel wert wie ein Short-Aufruf (90-Tage-Messung 03.06.-01.09.2026)."
+  }
+}

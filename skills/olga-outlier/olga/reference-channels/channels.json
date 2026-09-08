@@ -1,0 +1,13 @@
+{
+  "_comment": "Referenzkanaele fuer den olga-outlier-Skill -- feste Peer-/Nischen-Kanaele aus der Kanal-Diagnose vom 06.09.2026. Oeffentliche YouTube-Daten. Ergaenze eigene Kanaele bei Bedarf, aber loesche diese Basis nicht ohne Grund.",
+  "channels": [
+    {"name": "Olga Weiss", "handle": "@OlgaWeissCoaching", "channelId": "UC3BPfoLoiJaVshDvSUH7p9Q", "niche": "eigener Kanal", "priority": 10},
+    {"name": "Kristin Holm - Expertin fuer Virtuelle Assistenz", "handle": "@KristinHolm", "channelId": "", "niche": "Virtuelle Assistenz", "priority": 8},
+    {"name": "Lena | VA Business Academy", "handle": "", "channelId": "", "niche": "VA Business (teilweise englischsprachig)", "priority": 6},
+    {"name": "Wiebke Hiemann", "handle": "@WiebkeHiemann", "channelId": "UCwPFtP4dza2C2yzjA2Zp1iA", "niche": "Technik/Social-Media-Tools", "priority": 6},
+    {"name": "Ulrike Braun (Ahoipixel)", "handle": "", "channelId": "UCndOXddQJWXIEotCVgPc_2A", "niche": "ClickUp/Webdesign", "priority": 5},
+    {"name": "Fidan Guentuerkuen - VA:Preneur", "handle": "", "channelId": "UCG9W_vkf54IMJqQqv0Z1tRg", "niche": "Virtuelle Assistenz", "priority": 5},
+    {"name": "Projects To Profit (NANCY | KI-Workflows im Buero)", "handle": "", "channelId": "", "niche": "KI/Automatisierung im Bueroalltag -- Reichweiten-Referenz", "priority": 9},
+    {"name": "Dagmar Mehling - Notioneers", "handle": "", "channelId": "", "niche": "Notion/KI-Produktivitaet -- Reichweiten-Referenz", "priority": 7}
+  ]
+}
