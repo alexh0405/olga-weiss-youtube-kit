@@ -1,6 +1,6 @@
 # Installation für Claude Code
 
-Kurzanleitung, um alle drei Skills in Claude Code einsatzbereit zu machen.
+Kurzanleitung, um alle vier Skills in Claude Code einsatzbereit zu machen.
 
 ## Schnellweg
 
@@ -14,6 +14,7 @@ mkdir -p ~/.claude/skills
 cp -R skills/olga-outlier      ~/.claude/skills/olga-outlier
 cp -R skills/olga-script       ~/.claude/skills/olga-script
 cp -R skills/olga-description  ~/.claude/skills/olga-description
+cp -R skills/olga-hook         ~/.claude/skills/olga-hook
 
 # 3. Konfiguration anlegen (beide Werte optional)
 cp .env.example .env
@@ -40,7 +41,7 @@ oder:
 Du kannst Claude Code auch direkt bitten:
 
 > "Installier mir die Skills aus https://github.com/alexh0405/olga-weiss-youtube-kit —
->  klone das Repo und kopiere die drei Ordner aus `skills/` nach `~/.claude/skills/`."
+>  klone das Repo und kopiere die vier Ordner aus `skills/` nach `~/.claude/skills/`."
 
 ## Umgebungsvariablen
 
@@ -68,12 +69,15 @@ python3 ~/.claude/skills/olga-script/scripts/youtube_live.py --recent 5
 
 # olga-description: Skript-Hilfe anzeigen
 python3 ~/.claude/skills/olga-description/scripts/get_transcript.py --help
+
+# olga-hook: Skript-Hilfe anzeigen (braucht nur Python, keinen Key)
+python3 ~/.claude/skills/olga-hook/scripts/hook_db.py build --help
 ```
 
-Wenn alle drei Befehle ohne Fehler durchlaufen, ist alles startklar.
+Wenn alle vier Befehle ohne Fehler durchlaufen, ist alles startklar.
 
 ## Deinstallation
 
 ```bash
-rm -rf ~/.claude/skills/olga-outlier ~/.claude/skills/olga-script ~/.claude/skills/olga-description
+rm -rf ~/.claude/skills/olga-outlier ~/.claude/skills/olga-script ~/.claude/skills/olga-description ~/.claude/skills/olga-hook
 ```

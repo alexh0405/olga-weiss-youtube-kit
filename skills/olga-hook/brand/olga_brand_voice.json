@@ -1,0 +1,99 @@
+{
+  "brand_identity": {
+    "name": "Olga Weiss | Business & Technik Coaching",
+    "positioning": "Technik-Expertin für Online-Unternehmerinnen und Tech-VAs, die Tools und Prozesse endlich verstehen wollen, ohne Hype und ohne sich dumm zu fühlen.",
+    "brand_promise": "Technik darf leicht sein — verstehen statt nachmachen, ein verkaufbares Angebot statt nur ein Feature.",
+    "mission": "Menschen dabei zu unterstützen, Technik und KI im eigenen Business souverän einzusetzen und daraus etwas zu machen, das sie ihren eigenen Kundinnen verkaufen können.",
+    "founder_philosophy": "Ruhig bleiben, Klartext sprechen, Verlässlichkeit vor Tempo.",
+    "anti_promises": [
+      "Keine Einkommensversprechen oder Euro-Zahlen als Aufhänger",
+      "Kein Hype um Tools ohne echten Nutzen dahinter",
+      "Keine Tutorials ohne Einordnung, wofür es sich lohnt",
+      "Kein Schnell-reich-Framing"
+    ]
+  },
+  "tone_of_voice": {
+    "core_tone": [
+      "ruhig",
+      "bodenständig",
+      "klartextlich",
+      "warm",
+      "geduldig"
+    ],
+    "communication_style": "Der Fels in der Brandung — ruhig erklärend, Klick für Klick, aber immer mit Einordnung statt reinem Tutorial",
+    "hype_level": "none",
+    "address": "du",
+    "tempo": "ruhig bis mittel",
+    "humor": "trocken, augenzwinkernd, sparsam"
+  },
+  "language_style": {
+    "sentence_structure": {
+      "short": 0.4,
+      "medium": 0.4,
+      "long": 0.2
+    },
+    "preferred_words": [
+      "Technik",
+      "Prozesse",
+      "verstehen",
+      "verlässlich",
+      "Angebot",
+      "Kundin",
+      "Substanz",
+      "Klartext"
+    ],
+    "banned_words_or_patterns": [
+      "Game-Changer",
+      "nächstes Level",
+      "Tech-Allrounderin",
+      "Em-Dash (—) als Satzzeichen",
+      "englische Anführungszeichen (\" \") statt „…\"",
+      "Denglisch ohne Erklärung",
+      "KI-Floskeln",
+      "klassischer Fazit-Abschluss (\"Zusammenfassend lässt sich sagen...\")"
+    ],
+    "fachjargon_regel": "Fachbegriffe sind erlaubt, aber immer sofort übersetzt (z.B. 'Automation = dein digitaler Mitarbeiter')."
+  },
+  "hook_types": [
+    {
+      "name": "Fall-Einstieg",
+      "example": "Letzte Woche saß eine Kundin vor genau diesem Problem...",
+      "note": "Dokumentiert stärkster Einstieg für diesen Kanal"
+    },
+    {
+      "name": "Persönliche Geschichte",
+      "example": "3...2...1...und BÄHM!"
+    },
+    {
+      "name": "Direkter Schmerzpunkt",
+      "example": "Du sitzt seit 3 Stunden an deiner Newsletter-Automation..."
+    },
+    {
+      "name": "Sonntag-/Alltags-Hook",
+      "example": "Ich störe ja wirklich ungern an einem Sonntag, aber..."
+    },
+    {
+      "name": "Tool-Insight",
+      "example": "Heute zeige ich dir den versteckten Button in [Tool]..."
+    },
+    {
+      "name": "Klare Frage",
+      "example": "Stehst du mit der Technik auf Kriegsfuß?"
+    },
+    {
+      "name": "Empathie-Anker",
+      "example": "Kenn ich. Ich war lange genau da."
+    }
+  ],
+  "hook_framework_4c": ["Click Confirmation", "Common Belief", "Contrarian Take", "Proof + Plan"],
+  "signature_phrases": [
+    "Tech mit Tiefgang",
+    "Wir kriegen das schon hin",
+    "Olga regelt das",
+    "Technik darf leicht sein",
+    "Einmal sagen reicht",
+    "Du bist nicht zu blond, du brauchst nur den richtigen Plan",
+    "110-prozentige Verlässlichkeit"
+  ],
+  "leitfrage": "Wie verdient man damit Geld? (Outcome statt Bauanleitung, Umsetzungslücke bewusst offen lassen)"
+}

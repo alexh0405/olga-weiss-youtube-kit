@@ -1,7 +1,7 @@
 # Olga Weiss — YouTube-Kit
 
-Drei Claude-Code-Skills für den YouTube-Kanal **Olga Weiss** (@OlgaWeissCoaching) —
-Outlier-Recherche, Skript-Erstellung und Video-Beschreibungen. Alle drei sind fest auf
+Vier Claude-Code-Skills für den YouTube-Kanal **Olga Weiss** (@OlgaWeissCoaching) —
+Outlier-Recherche, Skript-Erstellung, Video-Beschreibungen und Hook-Generator. Alle vier sind fest auf
 den Kanal, die Zielgruppe und die Brand Voice zugeschnitten. Du musst nichts konfigurieren
 oder ausfüllen — Thema, Link oder Transkript liefern reicht.
 
@@ -18,7 +18,12 @@ oder ausfüllen — Thema, Link oder Transkript liefern reicht.
 3. **`olga-description`** — transkribiert ein Video und schreibt dir die fertige YouTube-
    Beschreibung mit Timestamps, deinem CTA-Katalog und korrekten `https://`-Links.
 
-Alle drei nutzen ein gemeinsames Kanal-Profil (`brand/`) — deine Positionierung, Zielgruppe,
+4. **`olga-hook`** — schreibt Hook-Vorschläge in deiner Sprache und baut aus deinen eigenen Videos
+   eine Hook-Datenbank mit Goldstandards. Du gibst deine Transkripte und die Zahlen aus YouTube Studio
+   (Klickrate, Wiedergabedauer) hinein, so sieht der Generator, welche deiner Hooks wirklich
+   funktioniert haben. Kein API-Key nötig.
+
+Alle vier nutzen ein gemeinsames Kanal-Profil (`brand/`) — deine Positionierung, Zielgruppe,
 Tonalität und CTA-Links sind an einer Stelle gepflegt.
 
 ---
@@ -31,7 +36,7 @@ Tonalität und CTA-Links sind an einer Stelle gepflegt.
 Installier mir diesen Skill: https://github.com/alexh0405/olga-weiss-youtube-kit
 ```
 
-Claude liest die `INSTALL.md` aus diesem Repo und installiert alle drei Skills automatisch nach
+Claude liest die `INSTALL.md` aus diesem Repo und installiert alle vier Skills automatisch nach
 `~/.claude/skills/`. Danach Claude Code einmal neu starten — fertig.
 
 > Falls Claude nachfragt: einfach bestätigen. Die Skills sind schreibgeschützt und sicher.
@@ -51,6 +56,12 @@ Siehe [INSTALL.md](INSTALL.md) für die Schritt-für-Schritt-Anleitung per Termi
 
 **Skript schreiben:**
 > "Schreib mir ein Skript über Claude-Cowork einrichten"
+
+**Hook-Datenbank füllen** (einmal, mit deinen Transkripten und `Tabellendaten.csv` aus YouTube Studio):
+> "Füll meine Hook-Datenbank. Die Transkripte liegen in [Ordner], die Studio-Zahlen in [Datei]."
+
+**Hooks schreiben:**
+> "Schreib mir 3 Hooks für ein Video über [Thema]"
 
 **Beschreibung erstellen:**
 > "Mach mir eine Beschreibung für https://youtube.com/watch?v=..."
@@ -80,14 +91,15 @@ olga-weiss-youtube-kit/
 ├── skills/
 │   ├── olga-outlier/           Outlier-Recherche (eigene Kopie von brand/ inklusive)
 │   ├── olga-script/            Skript & Outline (eigene Kopie von brand/ inklusive)
-│   └── olga-description/       Beschreibung & Timestamps (eigene Kopie von brand/ inklusive)
+│   ├── olga-description/       Beschreibung & Timestamps (eigene Kopie von brand/ inklusive)
+│   └── olga-hook/              Hook-Generator + Hook-Datenbank (eigene Kopie von brand/ inklusive)
 ├── .env.example
 └── LICENSE
 ```
 
 Jeder Skill trägt seine eigene Kopie von `brand/` in sich, damit er unabhängig funktioniert,
 egal wohin er installiert wird. Wird die Positionierung oder Brand Voice aktualisiert: die
-Dateien in `brand/` UND die Kopien in den drei `skills/*/brand/`-Ordnern anpassen.
+Dateien in `brand/` UND die Kopien in den vier `skills/*/brand/`-Ordnern anpassen.
 
 ---
 
